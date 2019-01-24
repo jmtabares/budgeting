@@ -188,7 +188,13 @@ Any | System shall display the sum per category from the outflow
 11. Verify only Misc category is in onflow chart 
 
 ## Execution instructions
-run  "rake default --trace"      
+1. From console run:  
+  a. rvm use 2.4.5
+  b. gem install bundler
+  c. gem install yard
+  d. gem install watir
+  e. bundler install
+2. run  "rake default --trace"      
 
            
 **Available tags**           
